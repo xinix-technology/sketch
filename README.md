@@ -7,6 +7,7 @@ Sketch is open requirement User Interface design pattern, feel free to add, requ
 ## Sketch and Naked
 So you heard about Naked before? Good. It's Xinix Technology CSS framework that we develop along side Sketch and as a complement for each other. While Naked mostly handling the layouting of a website, Sketch will handle some of the website element that you are mostly meet when developing a website design.
 And when can I use Sketch?
+
 1. If you feel like not in the mood to design your website.
 2. If you unable to design because you're not a designer.
 3. Your website requirement fits into Sketch spesification.
@@ -20,6 +21,9 @@ And when can I use Sketch?
 
 ## How to get Sketch
 You already in GitHub, either you can clone this repo, or download the newest release. And if you're have those cool kids Bower package management, do this:
-'bower install sketch --save'
+
+	bower install sketch --save
+
 Eventually after you succesfully clone, download or bower install Sketch, you need to do something like this to get all dependencies. In your Sketch folder type this:
-'bower update'
+
+	bower update
