@@ -107,11 +107,4 @@ We would like to provide the most common and the most used content out there, th
 | **Search Bar**
 | Inline Search Bar |
 | List View Search Bar |
-=======
-You already in GitHub, either you can clone this repo, or download the newest release. And if you're have those cool kids Bower package management, do this:
 
-	bower install sketch --save
-
-Eventually after you succesfully clone, download or bower install Sketch, you need to do something like this to get all dependencies. In your Sketch folder type this:
-
-	bower update
