@@ -9,10 +9,15 @@
 
 
 ## Sketch and Naked
+<<<<<<< HEAD
 
 So you heard about [Naked](http://github.com/xinix-technology/naked) before? Good. It's Xinix Technology CSS framework that we develop along side **Sketch** and they are meant to be as a complement for each other. While **Naked** mostly handling the layouting of a website, **Sketch** will handle some of the website element that you are mostly meet when developing a website design.
 
 So when can I use **Sketch**?
+=======
+So you heard about Naked before? Good. It's Xinix Technology CSS framework that we develop along side Sketch and as a complement for each other. While Naked mostly handling the layouting of a website, Sketch will handle some of the website element that you are mostly meet when developing a website design.
+And when can I use Sketch?
+>>>>>>> 3c9fcbe69f350600bf98fe3ec9ea6b087844125a
 
 1. If you feel like not in the mood to design your website.
 2. If you unable to design because you're not a designer.
@@ -27,6 +32,7 @@ So when can I use **Sketch**?
 
 
 ## How to get Sketch
+<<<<<<< HEAD
 
 You already in GitHub, either you can clone this repo, or download the newest release. And if you're have those cool kids Bower package management, do this. Open your terminal and goto you project's folder, type this command to download **Sketch**:
 
@@ -107,3 +113,12 @@ We would like to provide the most common and the most used content out there, th
 | **Search Bar**
 | Inline Search Bar |
 | List View Search Bar |
+=======
+You already in GitHub, either you can clone this repo, or download the newest release. And if you're have those cool kids Bower package management, do this:
+
+	bower install sketch --save
+
+Eventually after you succesfully clone, download or bower install Sketch, you need to do something like this to get all dependencies. In your Sketch folder type this:
+
+	bower update
+>>>>>>> 3c9fcbe69f350600bf98fe3ec9ea6b087844125a
