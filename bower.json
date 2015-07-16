@@ -1,6 +1,6 @@
 {
   "name": "sketch",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "homepage": "https://github.com/xinix-technology/sketch",
   "authors": [
     "Dwan <dwan@xinix.co.id>",
@@ -28,6 +28,9 @@
     "tests"
   ],
   "dependencies": {
-    "naked": "*"
+    "normalize.css": "~3.0.x",
+    "naked-css": "~1.0.x",
+    "modernizr": "~2.8.3",
+    "jacket-awesome": "~0.0.1"
   }
 }

@@ -1,0 +1,147 @@
+/*!
+ * Sketch - Namecard
+ * sketch.xinix.co.id
+ *
+ * Available under the Apache license
+ */
+
+/*
+ * Namecard is modern tag to describe a namecard like data
+ *
+ * Authors        Dwan
+ * Contributors   Dwan
+ */
+
+/* Make default display as block */
+namecardbook,
+bookmark,
+namecard,
+photo,
+name,
+email { display:block }
+
+/* Stylize each tags */
+
+/* Bookmark section */
+namecardbook bookmark {
+	/* Font Properties */
+	font-size:0.8em; text-transform:capitalize;
+	/* Colorize */
+	background:#f5f5f5; color:#ccc; border-top:1px solid #eee; border-bottom:1px solid #eee;
+	/* Properties */
+	padding:4px 8px; margin:-1px 0 0 0;
+}
+
+/* Default namecard */
+namecardbook namecard {
+	/* Properties */
+	padding:8px 0; margin:0 0 0 80px; min-height:48px; border-bottom:1px solid #eee;
+	/* Positioning */
+	position:relative;
+}
+namecardbook namecard:hover {
+	/* Colorize */
+	background:#E8F4F8; border-top:1px solid #CEDCF2; border-bottom:1px solid #CEDCF2;
+	/* Properties */
+	cursor:pointer; padding:8px 0 8px 80px; margin:-1px 0 0 0;
+}
+
+/* Photo section */
+namecard photo {
+	/* Colorize */
+	background:#ddd; color:#bbb;
+	/* Properties */
+	width:48px; height:48px; line-height:48px!important; text-align:center;
+	-webkit-border-radius:666em;
+	-moz-border-radius:666em;
+	-ms-border-radius:666em;
+	-o-border-radius:666em;
+	border-radius:666em;
+	/* Positioning */
+	position:absolute; top:8px; left:-64px;
+}
+namecard:hover photo {
+	/* Positioning */
+	left:16px;
+}
+
+/* Photo Name and email */
+namecard name,
+namecard email {
+	/* Font Properties */
+	overflow:hidden; text-overflow:ellipsis; white-space:nowrap;
+	/* Properties */
+	padding:0 16px 0 0;
+}
+namecard name {
+	/* Colorize */
+	color:#333;
+	/* Font Properties */
+	font-size:1.1em; font-weight:500; text-transform:capitalize;
+	/* Properties */
+	padding-top:4px; padding-bottom:2px;
+}
+namecard email {
+	/* Colorize */
+	color:#666;
+	/* Font Properties */
+	font-size:0.9em; font-weight:300; text-transform:lowercase;
+}
+
+
+/* Responsive Namecard Book */
+
+/* Bookmark section */
+namecardbook[responsive] bookmark {
+	/* Properties */
+	clear:both;
+}
+
+/* Default namecard */
+namecardbook[responsive] namecard {
+	/* Properties */
+	margin:0; width:100%;
+	/* Positioning */
+	float:left;
+}
+@media all and (min-width:640px) {
+	namecardbook[responsive] namecard {
+		/* Properties */
+		width:50%;
+	}
+}
+@media all and (min-width:800px) {
+	namecardbook[responsive] namecard {
+		/* Properties */
+		width:33.33%;
+	}
+}
+@media all and (min-width:1200px) {
+	namecardbook[responsive] namecard {
+		/* Properties */
+		width:25%;
+	}
+}
+@media all and (min-width:1600px) {
+	namecardbook[responsive] namecard {
+		/* Properties */
+		width:20%;
+	}
+}
+
+/* Photo section */
+namecardbook[responsive] namecard photo {
+	/* Positioning */
+	left:16px;
+}
+
+/* Photo Name and email */
+namecardbook[responsive] namecard name,
+namecardbook[responsive] namecard email {
+	/* Properties */
+	padding:0 16px 0 80px;
+}
+namecardbook[responsive] namecard name {
+	/* Properties */
+	padding-top:4px;
+}
