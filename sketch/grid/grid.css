@@ -45,7 +45,7 @@ s-gridgroup s-bookmark {
 /* Default grid */
 s-gridgroup s-grid {
 	/* Properties */
-	padding:8px;
+	padding:16px;
 	-webkit-border-radius:4px;
 	-moz-border-radius:4px;
 	-ms-border-radius:4px;
@@ -75,7 +75,7 @@ s-grid s-photo {
 }
 s-gridgroup[rounded] s-photo {
 	/* Properties */
-	width:96px; height:96px; line-height:96px!important; text-align:center; margin:0 auto;
+	width:96px; height:96px; line-height:96px!important; text-align:center; margin:0 auto; font-size:2.2em;
 	-webkit-border-radius:666em;
 	-moz-border-radius:666em;
 	-ms-border-radius:666em;
@@ -110,13 +110,13 @@ s-grid s-desc {
 /* Default s-grid */
 s-gridgroup s-grid {
 	/* Properties */
-	margin:0; width:100%; height:188px;
+	margin:0; width:100%; height:204px;
 	/* Positioning */
 	float:left;
 }
 s-gridgroup[rounded] s-grid {
 	/* Properties */
-	height:155px;
+	height:171px;
 }
 @media all and (min-width:320px) {
 	s-gridgroup s-grid {
