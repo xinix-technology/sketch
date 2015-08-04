@@ -46,7 +46,7 @@ Design pattern is term to describe a repetitive block of content where the desig
 
 We would like to provide the most common and the most used content out there, therefore we keeping the spesification open for suggestion. Some of the design pattern that we already or going to develelop are:
 
-1. Login
+1. Login View
 	1. Whole Screen Login
 	1. Popup Login
 	1. Drop Down Login
@@ -57,10 +57,6 @@ We would like to provide the most common and the most used content out there, th
 	1. Bottom Bar
 	1. Relative Position Helper
 	1. Fixed Position Helper
-1. Table
-	1. Regular Table
-	1. Zebra Table
-	1. Flex Box Table
 1. List View
 	1. Regular List View
 	1. Regular List View with Icon
@@ -78,33 +74,4 @@ We would like to provide the most common and the most used content out there, th
 1. Search Bar
 	1. Inline Search Bar
 	1. List View Search Bar
-
-
-## Status
-
-| Specification | Status
-| :------------ | -----:
-| **Login** |
-| Whole Screen Login |
-| Popup Login |
-| Drop Down Login |
-| Inline Login |
-| **Menu Bar**|
-| Side bars |
-| Top Bar |
-| Bottom Bar |
-| Relative Position Helper |
-| Fixed Position Helper |
-| **Table** |
-| Regular Table |
-| Zebra Table |
-| Flex Box Table |
-| **List View**
-| Regular List View |
-| Regular List View with Icon |
-| Multiple Coloumn List View |
-| List View with Swipe Action |
-| **Search Bar**
-| Inline Search Bar |
-| List View Search Bar |
 
