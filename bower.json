@@ -28,9 +28,10 @@
     "tests"
   ],
   "dependencies": {
-    "normalize.css": "~3.0.x",
+    "jacket-awesome": "~2.0.x",
+    "lato": "~0.3.x",
+    "modernizr": "~2.8.x",
     "naked-css": "~1.0.x",
-    "modernizr": "~2.8.3",
-    "jacket-awesome": "~0.0.1"
+    "normalize.css": "~3.0.x"
   }
 }
