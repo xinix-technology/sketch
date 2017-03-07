@@ -1,25 +1,25 @@
 /*!
- * Sketch - s-Namecard
+ * Sketch - Namecard
  * sketch.xinix.co.id
  *
  * Available under the Apache license
  */
 
 /*
- * s-Namecard is modern tag to describe a s-namecard like data
+ * Namecard is modern tag to describe a namecard like data
  *
  * Authors        Dwan
  * Contributors   Dwan
  */
 
 /* Make default display as block */
-s-namecardbook,
-s-bookmark,
-s-namecard,
-s-photo,
-s-name,
-s-email,
-s-info {
+namecardbook,
+bookmark,
+namecard,
+photo,
+name,
+email,
+info {
 	display:block;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -27,14 +27,14 @@ s-info {
     -o-box-sizing: border-box;
     box-sizing: border-box;
 }
-s-namecardbook {
+namecardbook {
 	display:table; width:100%;
 }
 
 /* Stylize each tags */
 
 /* Bookmark section */
-s-namecardbook s-bookmark {
+namecardbook bookmark {
 	/* Font Properties */
 	font-size:0.8em; text-transform:capitalize;
 	/* Colorize */
@@ -44,13 +44,13 @@ s-namecardbook s-bookmark {
 }
 
 /* Default namecard */
-s-namecardbook s-namecard {
+namecardbook namecard {
 	/* Properties */
 	padding:8px 0; margin:-1px 0 0 80px; height:64px; border-top:1px solid transparent; border-bottom:1px solid #eee;
 	/* Positioning */
 	position:relative;
 }
-s-namecardbook s-namecard.hover {
+namecardbook namecard.hover {
 	/* Colorize */
 	background:#E8F4F8; border-top:1px solid #CEDCF2; border-bottom:1px solid #CEDCF2;
 	/* Properties */
@@ -58,7 +58,7 @@ s-namecardbook s-namecard.hover {
 }
 
 /* Photo section */
-s-namecard s-photo {
+namecard photo {
 	/* Colorize */
 	background:#ddd; color:#bbb;
 	/* Properties */
@@ -71,21 +71,21 @@ s-namecard s-photo {
 	/* Positioning */
 	position:absolute; top:8px; left:-64px;
 }
-s-namecard.hover s-photo {
+namecard.hover photo {
 	/* Positioning */
 	left:16px;
 }
 
 /* Photo Name and email */
-s-namecard s-name,
-s-namecard s-email,
-s-namecard s-info {
+namecard name,
+namecard email,
+namecard info {
 	/* Font Properties */
 	overflow:hidden; text-overflow:ellipsis; white-space:nowrap;
 	/* Properties */
 	padding:0 16px 0 0;
 }
-s-namecard s-name {
+namecard name {
 	/* Colorize */
 	color:#333;
 	/* Font Properties */
@@ -93,18 +93,18 @@ s-namecard s-name {
 	/* Properties */
 	padding-top:4px; padding-bottom:2px;
 }
-s-namecard s-email {
+namecard email {
 	/* Colorize */
 	color:#3FA1E4;
 	/* Font Properties */
 	font-size:0.9em; font-weight:300; text-transform:lowercase;
 }
-s-namecard s-email:before,
-s-namecard s-email::before {
+namecard email:before,
+namecard email::before {
 	/* Properties */
 	content: "e-mail: ";
 }
-s-namecard s-info {
+namecard info {
 	/* Colorize */
 	color:#999;
 	/* Font Properties */
@@ -115,66 +115,66 @@ s-namecard s-info {
 /* Responsive Namecard Book */
 
 /* Default namecard */
-s-namecardbook[responsive] s-namecard {
+namecardbook[responsive] namecard {
 	/* Colorize */
 	border:0;
 }
-s-namecardbook[responsive] s-namecard.hover {
+namecardbook[responsive] namecard.hover {
 	/* Properties */
 	padding:8px 0;
 }
 
 /* Bookmark section */
-s-namecardbook[responsive] s-bookmark {
+namecardbook[responsive] bookmark {
 	/* Properties */
 	clear:both;
 }
 
-/* Default s-namecard */
-s-namecardbook[responsive] s-namecard {
+/* Default namecard */
+namecardbook[responsive] namecard {
 	/* Properties */
 	margin:0; width:100%;
 	/* Positioning */
 	float:left;
 }
 @media all and (min-width:640px) {
-	s-namecardbook[responsive] s-namecard {
+	namecardbook[responsive] namecard {
 		/* Properties */
 		width:50%;
 	}
 }
 @media all and (min-width:800px) {
-	s-namecardbook[responsive] s-namecard {
+	namecardbook[responsive] namecard {
 		/* Properties */
 		width:33.33%;
 	}
 }
 @media all and (min-width:1200px) {
-	s-namecardbook[responsive] s-namecard {
+	namecardbook[responsive] namecard {
 		/* Properties */
 		width:25%;
 	}
 }
 @media all and (min-width:1600px) {
-	s-namecardbook[responsive] s-namecard {
+	namecardbook[responsive] namecard {
 		/* Properties */
 		width:20%;
 	}
 }
 
 /* Photo section */
-s-namecardbook[responsive] s-namecard s-photo {
+namecardbook[responsive] namecard photo {
 	/* Positioning */
 	left:16px;
 }
 
 /* Photo Name and email */
-s-namecardbook[responsive] s-namecard s-name,
-s-namecardbook[responsive] s-namecard s-email {
+namecardbook[responsive] namecard name,
+namecardbook[responsive] namecard email {
 	/* Properties */
 	padding:0 16px 0 80px;
 }
-s-namecardbook[responsive] s-namecard s-name {
+namecardbook[responsive] namecard name {
 	/* Properties */
 	padding-top:4px;
 }

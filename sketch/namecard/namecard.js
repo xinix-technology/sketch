@@ -15,9 +15,9 @@
 "use strict";
 
 window.onload = function() {
-	var namecard = document.getElementsByTagName("s-namecard"),
+	var namecard = document.getElementsByTagName("namecard"),
 		className = "hover";
-
+		console.log(namecard);
 	for (var i = 0; i < namecard.length; i++) {
 		namecard[i].onclick = function () {
 			var href = this.getAttribute("href");
